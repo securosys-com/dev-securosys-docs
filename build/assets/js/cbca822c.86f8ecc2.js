@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecurosys_docs=self.webpackChunksecurosys_docs||[]).push([[48279],{1242:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"microsoft-byok"}')}}]);
