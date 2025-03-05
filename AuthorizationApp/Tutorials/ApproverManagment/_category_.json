@@ -1,0 +1,9 @@
+{
+  "label": "2. Approver Management",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Approver Management Tutorial",
+    "description": "Learn how to create approvers and verify their onboarding status in the Securosys Authorization App. Ensure secure multi-authorization workflows for your key operations."
+  }
+}

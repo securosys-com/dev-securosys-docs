@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Install OpenSSL v1.x P11-kit",
+    "description": "Learn how to install and configure OpenSSL v1.x with P11-kit for seamless and secure integration with hardware security modules (HSMs), including prerequisites, setup steps, and advanced configuration tips."
+  }
+}

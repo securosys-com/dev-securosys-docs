@@ -1,0 +1,9 @@
+{
+  "label": "Tutorials",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Tutorials for Miscrosoft S/MIME & HSM",
+    "description": "Explore tutorials for Microsoft S/MIME with HSM integration. Learn how to send S/MIME-protected emails and troubleshoot common issues to ensure secure and seamless communication."
+  }
+}

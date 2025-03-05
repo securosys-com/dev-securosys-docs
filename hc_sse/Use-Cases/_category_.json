@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "HashiCorp Vault Secrets Engine - Use Cases",
+    "description": "Explore the use case of Encryption as a Service (EaaS) with HashiCorp Vault's Secrets Engine, enabling secure and scalable encryption management."
+  }
+}

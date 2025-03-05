@@ -1,0 +1,8 @@
+{
+  "label": "Microsoft SQL Server Always Encrypted",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Securing Microsoft SQL Server Always Encrypted using Primus Hardware Security Module"
+  }
+}

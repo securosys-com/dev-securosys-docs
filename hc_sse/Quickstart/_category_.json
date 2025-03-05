@@ -1,0 +1,9 @@
+{
+  "label": "Get Started",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Getting Staretd with HashiCorp Vault HSM Secrets Engine",
+    "description": "Follow the quick start guide to integrate and use the HSM-powered Secrets Engine plugin for HashiCorp Vault, ensuring secure key management and cryptographic operations."
+  }
+}

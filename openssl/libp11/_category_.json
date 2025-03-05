@@ -1,0 +1,8 @@
+{
+  "label": "OpenSSL v1.x - OpenSC",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "The OpenSC/libp11 - PKCS#11 Wrapper Library provides a PKCS#11 Engine Plugin for OpenSSL, enabling semi-transparent access to PKCS#11 modules."
+  }
+}

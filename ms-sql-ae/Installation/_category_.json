@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Integrate Microsoft SQL Always Encrypted & HSM",
+    "description": "Discover how to integrate Microsoft SQL Always Encrypted with Securosys HSMs: cover prerequisites, API provider setup, creating Column Master and Encryption Keys, and enabling Always Encrypted for seamless security"
+  }
+}

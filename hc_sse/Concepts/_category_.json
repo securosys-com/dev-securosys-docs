@@ -1,0 +1,9 @@
+{
+  "label": "Concepts",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "HashiCorp Vault HSM Integration: Key Concepts",
+    "description": "Explore the core concepts of Securosys' HSM-powered Secrets Engine plugin for HashiCorp Vault, including its features and glossary for secure key management."
+  }
+}

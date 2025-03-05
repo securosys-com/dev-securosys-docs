@@ -1,0 +1,8 @@
+{
+  "label": "Overview",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "External Key Store (XKS) resources for integration with Amazon Web Services Key Management Service (AWS KMS) allow you to manage keys held in Securosys Primus HSMs (Hardware Security Module) or a Securosys Network CloudHSM and allows AWS KMS to use the keys for cryptographic operations on demand. "
+  }
+}

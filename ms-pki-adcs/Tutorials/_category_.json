@@ -1,0 +1,9 @@
+{
+  "label": "Tutorials",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft AD CS Tutorials for HSM Integration",
+    "description": "Explore Microsoft AD CS tutorials for Securosys HSM integration, covering root and subordinate CA setup, key migration, certificate template deployment, and troubleshooting."
+  }
+}

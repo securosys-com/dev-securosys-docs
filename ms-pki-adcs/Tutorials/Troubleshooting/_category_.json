@@ -1,0 +1,9 @@
+{
+  "label": "Troubleshooting",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft AD CS - HSM Troubleshooting",
+    "description": "Discover troubleshooting tutorials for Microsoft AD CS and Securosys HSM integration, including certificate revocation list management and a helpful toolbox for resolving issues."
+  }
+}

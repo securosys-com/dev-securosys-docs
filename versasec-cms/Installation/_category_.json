@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "vSEC:CMS & HSM Tutorial Guides",
+    "description": "Learn how to install and configure the Versasec Credential Management System (CMS) for Securosys Hardware Security Modules (HSMs), including prerequisites and API provider setup."
+  }
+}

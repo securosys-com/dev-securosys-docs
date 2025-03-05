@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft CNG & Security HSM Integration Guide",
+    "description": "Learn how to install and configure the Primus CNG/KSP Provider on Microsoft Windows Server or Client to integrate with Securosys Hardware Security Modules (HSMs) for both cloud and on-premises environments."
+  }
+}

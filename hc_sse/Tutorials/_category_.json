@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "HashiCorp Vault Secrets Engine & HSM - Tutorials",
+    "description": "Learn how to manage keys, perform cryptographic operations, and utilize command options with Securosys' Secrets Engine plugin for HashiCorp Vault."
+  }
+}

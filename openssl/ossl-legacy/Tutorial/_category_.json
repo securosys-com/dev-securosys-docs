@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "OpenSSL v1.x HSM Tutorials",
+    "description": "Learn to configure Primus HSM PKCS#11 provider with OpenSSL: key pair generation, CSR creation, and certificate import using RSA and pkcs11-tool."
+  }
+}

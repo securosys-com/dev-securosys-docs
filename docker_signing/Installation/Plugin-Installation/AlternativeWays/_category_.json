@@ -1,0 +1,9 @@
+{
+  "label": "Manual",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Docker Signing Plugin Installation",
+    "description": "Learn how to manually install and configure the Securosys Docker Signing Notation Plugin on Linux Ubuntu 22. Follow detailed instructions for setup, configuration, and integration with HSM for secure signing."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft CNG & Security HSM Tutorials",
+    "description": "Learn how to harden registry access, manage key accessibility, enable logging, and perform testing and troubleshooting with Microsoft CNG and Securosys Hardware Security Modules (HSMs) for enhanced security."
+  }
+}

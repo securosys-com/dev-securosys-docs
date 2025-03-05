@@ -1,0 +1,279 @@
+.featured_section_container {
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 15%;
+  max-width: var(--ifm-container-width);
+  padding: 0 var(--ifm-spacing-horizontal);
+  width: 100%;
+}
+
+.featured_section {
+  flex: 1;
+}
+
+.featured_section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.featured_section-header h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.featured_view-more {
+  font-size: 0.9rem;
+  color: #e30613;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+[data-theme="dark"] .featured_view-more {
+  color: white;
+}
+
+.featured_view-more:hover {
+  text-decoration: underline;
+}
+
+
+.featured_guides-list,
+.featured_apps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featured_guide-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Space between icon, content, and arrow */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  height: 120px;
+  /* Fixed height for consistent appearance */
+  box-sizing: border-box;
+  /* Include padding and border in height */
+}
+
+.featured_guide-item:hover {
+  border-color: #e30613;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.featured_icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  max-width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured_icon img {
+  max-width: 110px;
+  /* Adjust icon size */
+  height: auto;
+  margin-right: 10px;
+}
+
+.featured_guide-content {
+  flex: 1;
+  /* Take up remaining space */
+  color: #e30613;
+}
+
+[data-theme="dark"] .featured_guide-content {
+  color: white;
+}
+
+.featured_guide-content h3 {
+  font-size: 1rem;
+  margin: 0 0 5px;
+}
+
+.featured_guide-content p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+[data-theme="dark"] .featured_guide-content p {
+  color: white;
+}
+
+
+.featured_arrow {
+  color: white;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+[data-theme="dark"] .featured_arrow {
+  color: transparent;
+}
+
+.featured_guide-item:hover .featured_arrow {
+  transform: translateX(5px);
+  color: #007bff;
+}
+
+[data-theme="dark"] .featured_guide-item:hover .featured_arrow {
+  color: black;
+}
+
+[data-theme="dark"] .featured_guide-item:hover .featured_guide-content p {
+  color: black;
+}
+
+[data-theme="dark"] .featured_guide-item:hover .featured_guide-content {
+  color: black;
+}
+
+
+
+
+.featured_app-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.featured_app-item:hover {
+  border-color: #007bff;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.featured_app-item h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.featured_app-item p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
+
+.featured_actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.featured_actions span {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.featured_actions span:hover {
+  color: #007bff;
+}
+
+.featured_actions a {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.featured_actions a:hover {
+  text-decoration: underline;
+}
+
+
+.featured_divider {
+  width: 1px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #ddd, rgba(0, 0, 0, 0));
+  height: 100%;
+  margin: 0 20px;
+  flex-shrink: 0;
+  /* Prevent shrinking */
+}
+
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .featured_section_container {
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+  .featured_section-header {
+    align-items: center;
+    /* Center align title and link */
+  }
+
+  .featured_guides-list,
+  .featured_apps-list {
+    grid-template-columns: 1fr;
+    /* Ensure one column layout on mobile */
+  }
+
+  .featured_guide-item {
+    display: flex;
+    flex-direction: row; /* Set content to align in a row */
+    align-items: center; /* Vertically align image and text */
+    text-align: left; /* Ensure text alignment */
+    gap: 10px; /* Add spacing between the image and text */
+  }
+
+  .featured_icon {
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+
+  .featured_icon img {
+    max-width: 100px;
+    /* Slightly larger icons for readability */
+  }
+
+  .featured_arrow {
+    display: none;
+    /* Hide arrow on smaller screens to save space */
+  }
+
+  .featured_guide-content {
+    margin-left: 0;
+    /* Remove left margin */
+  }
+
+  .featured_divider {
+    display: block;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #ddd, rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    flex-shrink: 0;
+  }
+
+  .featured_section{
+    margin-bottom: 40px;
+  }
+
+  .featured_section_container {
+    display: block;
+  }
+
+  .featured_view-more{
+    display: none;
+  }
+}

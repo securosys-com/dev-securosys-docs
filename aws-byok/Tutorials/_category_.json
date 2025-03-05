@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "AWS BYOK - Create & Import Key with HSM",
+    "description": "Learn how to create, export, and import key material into AWS KMS using Securosys HSM. Follow step-by-step instructions for key generation, wrapping, and secure import with AWS KMS and Primus Tools."
+  }
+}

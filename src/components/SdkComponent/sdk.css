@@ -1,0 +1,70 @@
+.sdk_documentation-section {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.sdk_section-heading {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.sdk_main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sdk_category {
+  margin-bottom: 40px;
+}
+
+.sdk_category-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sdk_category-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.sdk_framework-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.sdk_framework-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.sdk_framework-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sdk_framework-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.sdk_framework-card span {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}

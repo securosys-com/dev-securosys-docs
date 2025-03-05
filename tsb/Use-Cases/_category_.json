@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "HSM Use Cases: TSB, REST API & More",
+    "description": "Discover use cases for Securosys HSM, including key attestation validation, certificate signing, Docker security, and HashiCorp Vault integration for robust application security."
+  }
+}

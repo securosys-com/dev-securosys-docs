@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Installing HashiCorp Vault Community",
+    "description": "Follow this guide to install HashiCorp Vault Community using Docker or Golang for efficient key management and security solutions."
+  }
+}

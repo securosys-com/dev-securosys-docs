@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "JCE/JCA & HSM - Use Cases",
+    "description": "Explore how to implement Transport Layer Security (TLS) using Java Cryptography Extension (JCE) and Java Cryptography Architecture (JCA) with Securosys Hardware Security Modules (HSMs) for secure communications."
+  }
+}

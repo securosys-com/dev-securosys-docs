@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Fortinet FortiGate - HSM Integration Guide",
+    "description": "Learn the prerequisites and configuration steps to integrate Fortinet FortiGate Next Gen Firewall (NGFW) with Securosys Hardware Security Modules (HSMs) for enhanced security."
+  }
+}

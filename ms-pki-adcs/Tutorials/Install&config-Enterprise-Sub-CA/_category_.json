@@ -1,0 +1,9 @@
+{
+  "label": "Enterprise Subordinate CA",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft AD CS Enterprise Subordinate CA",
+    "description": "Learn how to configure an Enterprise Subordinate Certificate Authority (CA) with Securosys Hardware Security Modules (HSMs), covering steps for setting up AD CS roles, signing CSRs, adapting publication points, managing CRLs, and distributing Root CA certificates."
+  }
+}

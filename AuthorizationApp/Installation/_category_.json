@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Authorization App Installation Guide",
+    "description": "Follow the step-by-step instructions to install the Securosys Authorization App on iOS/Android, register your Approver, and configure essential settings for secure authorization management."
+  }
+}

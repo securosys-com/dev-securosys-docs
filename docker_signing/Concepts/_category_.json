@@ -1,0 +1,9 @@
+{
+  "label": "Concepts",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Concepts: Docker Image Signing with HSM",
+    "description": "Explore the concepts behind integrating the Docker Image Signing Plugin with HSM to secure container images and enhance software supply-chain security. Understand the role of Notation and HSM in trusted image verification."
+  }
+}

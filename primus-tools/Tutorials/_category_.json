@@ -1,0 +1,9 @@
+{
+  "label": "Tutorials",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Primus Tools Tutorials: Command Overview & Details",
+    "description": "Learn about the commands for Securosys Primus Tools and Hardware Security Modules (HSMs), including detailed command information for secure key management."
+  }
+}

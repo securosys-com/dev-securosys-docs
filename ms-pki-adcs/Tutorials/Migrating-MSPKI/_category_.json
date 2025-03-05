@@ -1,0 +1,9 @@
+{
+  "label": "Migrating to a new instance",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft AD CS HSM Server Instance Migration",
+    "description": "Comprehensive guide on migrating Microsoft AD CS Server instances, including handling exportable and non-exportable private keys with Securosys Hardware Security Modules (HSMs) for secure certificate management."
+  }
+}

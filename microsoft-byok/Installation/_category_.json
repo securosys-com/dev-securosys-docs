@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Azure BYOK - HSM Installation Guide",
+    "description": "Follow the installation steps for Bring Your Own Key (BYOK) with Securosys Hardware Security Modules (HSMs) on Azure, including prerequisites, Primus tools, HSM credentials, and Azure CLI setup"
+  }
+}

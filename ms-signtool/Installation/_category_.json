@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft SignTool - HSM Integration",
+    "description": "Learn how to install and configure Microsoft SignTool with Securosys Hardware Security Modules (HSMs). Follow the prerequisites and API provider setup to ensure secure code signing."
+  }
+}

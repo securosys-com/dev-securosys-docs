@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Docker Encryption - Use Cases",
+    "description": "Explore how to encrypt Docker images using the Docker Encryption HSM Plugin and Securosys HSMs, ensuring secure containerized environments and key management."
+  }
+}

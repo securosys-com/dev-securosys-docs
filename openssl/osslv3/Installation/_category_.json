@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "OpenSSL v3.x Installation",
+    "description": "Set up OpenSSL with HSM: prerequisites, installation, and configuration guidance for PKCS11 provider integration and enhanced security."
+  }
+}

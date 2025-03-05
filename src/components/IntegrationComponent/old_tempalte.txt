@@ -1,0 +1,271 @@
+<HomepageSection header='API Reference' id="api-provider">
+          <div className='about__cards'>
+            <Link to='tsb/overview' className='about__card'>
+              <div className='about__section_card'>
+                <h3 className='about__header'><p>REST-API</p></h3>
+                <p className='about__description'>
+                Get started with REST-API for Hardware Security Modules (HSMs), Smart Key Attributes (SKA), and Transaction Security Broker (TSB).
+                </p>
+              </div>
+            </Link>
+            
+            <Link to='jce/overview' className='about__card'>
+              <div className='about__section_card'>
+                <h3 className='about__header'>JCE & JCA</h3>
+                <p className='about__description'>
+                Leverage Java Cryptography Extension (JCE) & Architecture (JCA) to ensure secure cryptographic operations in your Java applications.
+              </p>
+              </div>
+            </Link>
+            <Link to='pkcs/overview' className='about__card'>
+              <div className='about__section_card'>
+                <h3 className='about__header'>PKCS#11</h3>
+                <p className='about__description'>
+                Enhance your applications with PKCS#11 for seamless HSM security integration and compliance.
+                </p>
+              </div>
+            </Link>
+            <Link to='mscng/overview' className='about__card'>
+              <div className='about__section_card'>
+                <h3 className='about__header'>Microsoft CNG</h3>
+                <p className='about__description'>
+                MSCNG enhances HSM security by managing the entire lifecycle of digital keys.
+                </p>
+              </div>
+            </Link>
+            <Link to='openssl/overview' className='about__card'>
+              <div className='about__section_card'>
+                <h3 className='about__header'>OpenSSL</h3>
+                <p className='about__description'>
+                The OpenSSL PKCS#11 provider simplifies interaction with Securosys HSMs through the familiar OpenSSL API.                </p>
+              </div>
+            </Link>
+            <Link to='primus-tools/overview' className='about__card'>
+              <div className='about__section_card'>
+                <h3 className='about__header'>Securosys Primus Tools</h3>
+                <p className='about__description'>
+                A convenient Command Line Interface (CLI) for interacting with the Primus HSM.
+                </p>
+              </div>
+            </Link>            
+          </div>
+        </HomepageSection>
+        {/* ===================================================================== API Provider End */}
+        
+        {/* ===================================================================== Integrations Start */}
+        <HomepageSection header='Application Integrations' id="app-integrations">
+          <div className='about__cards'>    
+              <div className='about__section'>
+                <h3 className='about__header'>General</h3>
+                <ul className='about__ul'>                
+                  <li className='about__li'>
+                    <a className='about__a' href="/connectivity-details/overview">
+                        HSM Connectivity Details
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/cloudhsm/overview">
+                        Securosys CloudHSM (HSMaaS)
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Multi Party Authorization</h3>
+                <ul className='about__ul'>                
+                  <li className='about__li'>
+                    <a className='about__a' href="/AuthorizationApp/overview">
+                        Securosys Authorization App
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/tsb/Tutorials/TransactionSecurityBroker/transaction-security-broker">
+                        Transaction Security Broker
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>      
+              <div className='about__section'>
+                <h3 className='about__header'>IAM & PAM</h3>
+                <ul className='about__ul'>                                  
+                  <li className='about__li'>
+                    <a className='about__a' href="/cyberark/overview">
+                        CyberArk - PAM
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/securden-pam/overview">
+                        Securden Unified PAM
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Hyperscalers</h3>
+                <ul className='about__ul'>
+                  <li className='about__li'>
+                    <a className='about__a' href="/aws-byok/overview">
+                      AWS - Bring Your Own Key
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+                <ul className='about__ul'>
+                  <li className='about__li'>
+                    <a className='about__a' href="/xks/overview">
+                      AWS - External KeyStore Proxy (XKS)
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+                <ul className='about__ul'>
+                  <li className='about__li'>
+                    <a className='about__a' href="/microsoft-byok/overview">
+                      Azure - Bring Your Own Key
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+                <ul className='about__ul'>
+                  <li className='about__li'>
+                    <a className='about__a' href="/salesforce-byok/overview">
+                      Salesforce - Bring Your Own Key
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Container Orchestration</h3>
+                <ul className='about__ul'>
+                  <li className='about__li'>
+                    <a className='about__a' href="/docker_signing/overview">
+                      Docker Signing
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/docker_encryption/overview">
+                      Docker Encryption
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>HashiCorp Vault</h3>
+                <ul className='about__ul'>
+                <li className='about__li'>
+                    <a className='about__a' href="/hc-vault-enterprise/overview">
+                      Vault Enterprise Edition
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/hc_vault/overview">
+                      Vault Community Edition
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/hc_sse/overview">
+                      Securosys' Secrets Engine Plugin
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Public Key Infrastructure</h3>
+                <ul className='about__ul'>
+                  <li className='about__li'>
+                    <a className='about__a' href="/primekey-ejbca/overview">
+                    Keyfactor/PrimeKey EJBCA
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/venafi/overview">
+                      Venafi - Machine Identity Mgmt
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/versasec-cms/overview">
+                      Versasec Credential Mgmt System 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                      </a>
+                  </li>
+                  <li className='about__li'>
+                    <a className='about__a' href="/white-rabbit/overview">
+                      White Rabbit Security OpenXPKI 
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                      </a>
+                  </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Microsoft</h3>
+                <ul className='about__ul'>
+                <li className='about__li'>
+                  <a className='about__a' href="/ms-pki-adcs/overview">
+                        Microsoft AD CS
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                  </a>
+                </li>
+                <li className='about__li'>
+                    <a className='about__a' href="/ms-iis/overview">
+                      Microsoft IIS
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                </li>
+                <li className='about__li'>
+                    <a className='about__a' href="/ms-signtool/overview">
+                      Microsoft SignTool
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Database Encryption</h3>
+                <ul className='about__ul'>
+                  <li className='about__li'>
+                    <a className='about__a' href="/ms-sql-ae/overview">
+                      Microsoft SQL Always Encrypted
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Email Encryption</h3>
+                <ul className='about__ul'>
+                <li className='about__li'>
+                  <a className='about__a' href="/sixscape/overview">
+                    Sixscape - IDcentral Key Management
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                  </a>
+                </li>
+                </ul>
+              </div>
+              <div className='about__section'>
+                <h3 className='about__header'>Network Security</h3>
+                <ul className='about__ul'>
+                <li className='about__li'>
+                  <a className='about__a' href="/fortigate/overview">
+                    FortiGate - SSL/TLS Inspection
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-280h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Zm-80 480q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+                  </a>
+                </li>
+                </ul>
+              </div>
+            </div>
+        </HomepageSection>
+        {/* ===================================================================== Integrations End */}

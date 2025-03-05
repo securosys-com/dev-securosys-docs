@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Docker Encryption - HSM Installation Guide",
+    "description": "tep-by-step installation guide for Docker Encryption, covering prerequisites, downloading, creating keys, and configuring the Docker Encryption HSM plugin for secure containerization."
+  }
+}

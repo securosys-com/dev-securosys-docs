@@ -1,0 +1,9 @@
+{
+  "label": "OpenSSL v1.x - P11-kit",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "OpenSSL v1.x - P11-kit HSM Integration",
+    "description": "The P11-kit provides a convenient way to interact with the Primus HSM using the familiar OpenSSL API. Please note that the P11-kit is based on the deprecated OpenSSL Engine API. For OpenSSL 3.x we recommend using the OpenSSL pkcs11-provider instead."
+  }
+}

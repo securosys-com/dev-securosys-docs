@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "OpenSSL v3.x HSM Tutorials",
+    "description": "Learn OpenSSL CLI usage and troubleshooting for seamless PKCS11 provider integration with HSM, including commands, setup, and issue resolution."
+  }
+}

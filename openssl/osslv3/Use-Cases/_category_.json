@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "OpenSSL v3.x Use Cases",
+    "description": "Explore OpenSSL v3.x use cases with HSM integration for NGINX, Apache HTTP Server, and Self-Signed Root Certificates, including PKCS11 provider setup, CLI commands, and troubleshooting tips."
+  }
+}

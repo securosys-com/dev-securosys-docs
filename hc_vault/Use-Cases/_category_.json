@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "HSM Integration with HashiCorp Vault Community",
+    "description": "Learn how to integrate Hardware Security Modules (HSMs) with HashiCorp Vault Community for enhanced security and key management."
+  }
+}

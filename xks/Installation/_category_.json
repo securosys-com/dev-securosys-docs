@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Integration guide for Securosys XKS Proxy",
+    "description": "Follow this detailed guide to configure, install, and manage Securosys XKS Proxy on AWS EC2 for seamless integration with Amazon VPC Endpoint Service and AWS KMS. Includes prerequisites, Docker installation, HSM configuration, and proxy setup for secure key management."
+  }
+}

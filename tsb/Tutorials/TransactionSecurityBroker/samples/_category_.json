@@ -1,0 +1,9 @@
+{
+  "label": "Samples",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "TSB Samples: Policy-Based Keys & Signature Requests",
+    "description": "Explore samples for Transaction Security Broker (TSB) with Securosys Smart Key Attributes, including creating policy-based keys, issuing signature requests, and more for secure key management."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "PKCS#11 Installation: HSM Setup & Configuration",
+    "description": "Follow the steps for installing and configuring PKCS#11 with Securosys Primus HSM, including platform support, configuration file adjustments, and permanent secret fetching."
+  }
+}

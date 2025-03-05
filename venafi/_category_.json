@@ -1,0 +1,8 @@
+{
+  "label": "Venafi",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Venafi - Machine Identity Management"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Architecture",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Securosys CloudHSM Architecture",
+    "description": "Explore Securosys CloudHSM architecture with geographically dispersed data centers, cluster synchronization, load balancing, and secure backups. Managed from Switzerland, ensuring robust redundancy and client access."
+  }
+}

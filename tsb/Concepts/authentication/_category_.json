@@ -1,0 +1,9 @@
+{
+  "label": "Rest-API Authentication",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Rest-API Authentication: JWT & mTLS Methods",
+    "description": "Secure your interactions with Rest-API using authentication methods like JSON Web Tokens (JWT) and mTLS for enhanced security."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Concepts",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Securosys XKS Proxy Concepts",
+    "description": "Learn about key concepts like AWS KMS XKS for managing cryptographic keys with an external key store, offering full control over encryption. Explore our glossary for essential cybersecurity acronyms and definitions."
+  }
+}

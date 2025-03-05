@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Azure BYOK Tutorial: Key Generation & Transfer",
+    "description": "Learn how to generate and transfer keys using Securosys Hardware Security Modules (HSMs) for Azure Bring Your Own Key (BYOK) implementation, including key exchange key (KEK) generation and target key transfer."
+  }
+}

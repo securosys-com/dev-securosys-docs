@@ -1,0 +1,9 @@
+{
+  "label": "Securosys Authorization App",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Authorization App: Approver Setup & Management",
+    "description": "Get started with the Securosys Authorization App, including a guide to create approver private-public key pairs, manual key generation with OpenSSL, and API-based approver management for secure workflows."
+  }
+}

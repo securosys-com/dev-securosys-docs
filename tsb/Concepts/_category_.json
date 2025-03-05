@@ -1,0 +1,9 @@
+{
+  "label": "Concepts",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "title": "Concepts: REST-API Authentication, Keys & Keystore",
+    "description": "Understand key concepts in Securosys Transaction Security Broker, including REST-API authentication, key management, and the Infinite Keystore for secure storage and operations."
+  }
+}

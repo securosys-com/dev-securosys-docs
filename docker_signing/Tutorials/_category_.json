@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "6 Tutorials for Docker Image Signing",
+    "description": "Learn how to create signing keys, generate certificates, sign Docker images, update the plugin, and troubleshoot with our guide on Securosys Docker Signing Notation Plugin."
+  }
+}

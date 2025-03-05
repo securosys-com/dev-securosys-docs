@@ -1,0 +1,9 @@
+{
+  "label": "Get Started",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Quickstart for HashiCorp Vault Community & HSM",
+    "description": "Begin your journey with HashiCorp Vault Community and integrate Hardware Security Modules (HSMs) for secure key management and encryption."
+  }
+}

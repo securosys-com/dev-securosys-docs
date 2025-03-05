@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft CNG & Security HSM - Use Cases",
+    "description": "Explore use cases for securing Microsoft Outlook, ADCS, Always Encrypted SQL Server, Microsoft SignTool, and Web Server (IIS) with Securosys Hardware Security Modules (HSMs) to enhance encryption and security."
+  }
+}

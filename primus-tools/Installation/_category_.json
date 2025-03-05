@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Primus Tools Installation: Prerequisites & Setup",
+    "description": "Follow the installation process for Securosys Primus Tools with Hardware Security Modules (HSMs), including prerequisites, installation steps, and HSM connectivity."
+  }
+}

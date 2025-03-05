@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Salesforce BYOK HSM Integration Tutorials",
+    "description": "Learn how to generate certificates, wrap BYOK key material, and import BYOK keys for Salesforce integration in this step-by-step tutorial."
+  }
+}

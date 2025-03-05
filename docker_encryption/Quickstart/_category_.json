@@ -1,0 +1,9 @@
+{
+  "label": "Get Started",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Docker Encryption - Quick Start Guide",
+    "description": "Learn how to get started with Docker Encryption HSM Plugin for secure key management and encryption within your Docker containers using Securosys hardware security modules (HSMs)."
+  }
+}

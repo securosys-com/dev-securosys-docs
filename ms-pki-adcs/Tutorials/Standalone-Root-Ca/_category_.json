@@ -1,0 +1,9 @@
+{
+  "label": "Standalone Root CA",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft AD CS Standalone Root CA Setup",
+    "description": "Learn how to set up a Standalone Root CA for Microsoft Active Directory Certificate Services (AD CS) with Securosys Hardware Security Modules (HSMs), using both GUI and PowerShell configurations."
+  }
+}

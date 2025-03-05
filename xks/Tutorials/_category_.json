@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "AWS KMS & HSM Tutorial Guides",
+    "description": "Explore our troubleshooting tutorial for Securosys XKS Proxy integration with AWS KMS. Learn how to configure logging, handle error codes, create an External Key Store, encrypt data, and generate a .jks file for seamless key management."
+  }
+}

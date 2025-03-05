@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Tutorials - CyberArk HSM Integration",
+    "description": "Access detailed tutorials for integrating CyberArk PAM with Securosys CloudHSM or Primus HSM. Learn how to secure vault server keys and configure HSMs for optimal performance."
+  }
+}

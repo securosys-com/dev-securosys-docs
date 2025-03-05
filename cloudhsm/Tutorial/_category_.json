@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "title": "Securosys CloudHSM - Tutorials",
+    "description": "Explore CloudHSM tutorials for configuring partition policies, managing logs, migrating from on-premises Primus HSM, and securely terminating your CloudHSM subscription with Securosys HSMs."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Authorization App iOS/Android - Use Cases",
+    "description": "Discover how to integrate the Authorization App on iOS/Android with Docker security, HashiCorp Vault, and Securosys HSM for robust encryption and secure access management."
+  }
+}

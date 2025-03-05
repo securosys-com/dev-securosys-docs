@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Install Docker Signing Plugin & Notation",
+    "description": "Follow the installation guide for Docker Signing Plugin and Notation. Set up, download, and verify your plugin for secure image signing with Securosys HSM."
+  }
+}

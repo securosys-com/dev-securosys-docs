@@ -1,0 +1,9 @@
+{
+  "label": "Troubleshooting",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "XKS Proxy Troubleshooting",
+    "description": "Troubleshoot issues with Securosys XKS Proxy integration by checking AWS connections, reviewing Primus HSM logs, and analyzing error codes. Learn how to configure logging for better monitoring and identify solutions to common problems."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "CyberArk PAM Integration",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Primus HSM CyberArk PAM (CyberArk Digital Vault) Integration"
+  }
+}

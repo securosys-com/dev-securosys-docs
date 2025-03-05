@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft IIS Certificate Binding with HSM",
+    "description": "Follow this tutorial to learn how to bind certificates with Microsoft Internet Information Services (IIS) and Securosys Hardware Security Modules (HSMs), ensuring secure communication and optimal server configuration."
+  }
+}

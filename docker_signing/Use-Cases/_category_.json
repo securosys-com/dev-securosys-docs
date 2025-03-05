@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Docker Signing Use Cases with HSM",
+    "description": "Explore key use cases for signing Docker images using Securosys HSM. Learn how to ensure integrity and security for your containerized applications."
+  }
+}

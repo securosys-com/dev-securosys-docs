@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "How to integrate CyberArk PAM with an HSM",
+    "description": "Follow this sequence to setup CyberArk PAM with Securosys CloudHSM or on-premises Primus HSM using the Primus PKCS#11 Provider."
+  }
+}

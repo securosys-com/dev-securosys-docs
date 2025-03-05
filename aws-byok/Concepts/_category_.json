@@ -1,0 +1,9 @@
+{
+  "label": "Concepts",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "title": "AWS BYOK Concepts - Glossary of Key Terms",
+    "description": "Explore the glossary of key terms and acronyms related to AWS Bring Your Own Key (BYOK) and understand essential concepts for integrating Securosys CloudHSM or Primus HSM with AWS KMS."
+  }
+}

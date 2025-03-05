@@ -1,0 +1,23 @@
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = server_cert_req
+prompt = no
+
+[req_distinguished_name]
+C  = CH
+ST = Bern
+L  = Bern
+O  = My Example Organisation
+OU = IT Department
+CN = www.example.com
+
+[ server_cert_req ]
+basicConstraints = CA:FALSE
+nsCertType = server
+keyUsage = critical, digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = www.example.com
+DNS.2 = *.www.example.com

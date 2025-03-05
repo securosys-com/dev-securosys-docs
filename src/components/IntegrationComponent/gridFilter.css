@@ -1,0 +1,438 @@
+.grid__product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 375px); /* Ensure fixed tile width */
+  justify-content: center; /* Center tiles if there are fewer items */
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.grid__product_filtered {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 25px;
+}
+
+.tag-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: capitalize;
+}
+
+[data-theme='dark'] .tag-item {
+  background-color: transparent;  
+}
+
+
+.tag-item.selected {
+  border: 2px solid #007bff;
+  border-radius: 4px;
+}
+
+.tag-item:hover {
+  border-color: #e30613;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);  
+}
+
+[data-theme="dark"] .tag-item:hover {
+  border-color: #d4dfe2;
+  box-shadow: 0px 0px 4px 4px rgba(197, 205, 212, 0.2);  
+}
+
+
+
+.tag-item-search {
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: capitalize;  
+}
+
+[data-theme='dark'] .tag-item-search {
+  background-color: transparent;  
+}
+
+[data-theme='dark'] .tag-item-search ::placeholder{
+  color: white;  
+}
+
+
+.tag-item-search.selected {
+  border: 2px solid #007bff;
+  border-radius: 4px;
+}
+
+.tag-item-search:hover {
+  border-color: #e30613;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);  
+}
+
+[data-theme="dark"] .tag-item-search:hover {
+  border-color: #d4dfe2;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);  
+}
+
+
+
+.tag-dot {
+  width: 8px; 
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reset-button {
+  margin-left: 10px;
+  padding: 10px 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+[data-theme="dark"] .reset-button {
+  background-color: #ccc;
+}
+
+[data-theme="dark"] .sort-dropdown {
+  background-color: #ccc;
+}
+
+/* Container for the toggle switch */
+.filter-mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;  
+  font-size: 14px;
+}
+
+/* The toggle switch container */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+/* Hide the default checkbox */
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider (background and handle) */
+.toggle-switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 25px;
+}
+
+/* The circle handle */
+.toggle-switch .slider::before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 3.5px;
+  left: 4px;
+  transition: 0.4s;
+}
+
+/* When the toggle is checked */
+.toggle-switch input:checked + .slider {
+  background-color: #e30613;
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(24px);
+}
+
+/* Label to display current filter mode */
+.filter-label {
+  font-weight: bold;
+  color: #333;
+}
+
+[data-theme="dark"] .filter-label {
+  color: white;
+}
+
+.sort-dropdown {
+  margin-left: 10px;
+  padding: 15px 15px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sort-dropdown:hover {
+  border-color: #e30613;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+.reset-button:hover {
+  border-color: #e30613;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+.grid-controls {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; 
+  margin-bottom: 15px;
+}
+
+.grid-left-aligned {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.grid-right-aligned {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: -10px;
+}
+
+.tag-dot {
+  width: 8px; 
+  height: 8px;
+  background-color: green;
+  border-radius: 50%; 
+  margin-left: 10px;
+}
+
+.grid-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  align-items: flex-end;
+}
+
+.grid__product_tag-category {
+  display: flex; 
+  align-items: center; 
+  border: 1px solid #ccc; 
+  border-radius: 20px; 
+  padding: 2px 7px;
+  font-size: 10px;
+  background-color: transparent;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);   
+  text-transform: capitalize;
+}
+
+[data-theme="dark"] .grid__product_tag-category{
+  background-color: transparent;
+  color: white;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .tile {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+[data-theme="dark"] .tile:hover {
+  border: 1px solid white;
+}
+
+.tile-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -15px -15px 1rem -15px;
+  height: 8rem;
+  background-color: #f9f9f9;
+  /* border: 1px solid #ddd; */
+  border-radius: 10px 10px 0 0; /* Makes all corners rounded */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.tile-logo img {
+  max-width: 80%;
+  max-height: 75%;
+  object-fit: contain; /* Ensure logo scales nicely within the area */
+}
+
+[data-theme="dark"] .tile-logo {
+  background-color: #475c64; /* Dark theme adjustment */
+  border-color: #444; /* Dark theme border color */
+}
+
+
+
+.tile-header {
+  margin-bottom: auto;
+}
+
+.tile-title {
+  font-size: 1.2rem; /* Slightly larger for better readability */
+  font-weight: 600; /* Semi-bold for emphasis */
+  line-height: 1.5; /* Better spacing for readability */
+  margin-top: 1.5rem; /* Harmonized spacing */
+  margin-bottom: 0.75rem; /* Slightly larger bottom margin for balance */
+  z-index: 2;
+  color: #333; /* Neutral, professional color */
+  text-align: left; /* Centers the title if appropriate */
+  text-transform: capitalize; /* Capitalize for a polished look */
+  letter-spacing: 0.05rem; /* Adds spacing between letters for better legibility */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  display: flex;
+  position: relative; /* Required for positioning the underline */
+  display: inline-block; /* Ensures the underline is under the text only */  
+  transition: transform 0.2s ease; /* For the subtle lift effect */
+}
+
+.tile-title::after {
+  content: ""; /* Creates the underline */
+  position: absolute;
+  bottom: -2px; /* Position the line slightly below the text */
+  left: 0;
+  width: 0; /* Start with no width */
+  height: 2px; /* Thickness of the underline */
+  background-color: #e30613; /* Blue underline */
+  transition: width 1s ease; /* Smoothly animate the width */
+}
+
+[data-theme="dark"] .tile-title::after {
+  background-color: #007bff; /* Blue underline */
+}
+
+.tile-title:hover::after {
+  width: 100%; /* Expand the underline fully */
+}
+
+.tile-title:hover {
+  color: #e30613; /* Highlights title on hover with a soft blue */
+}
+
+[data-theme="dark"] .tile-title {
+  color: white;
+}
+
+[data-theme="dark"] .tile-title:hover {
+  color: white;
+}
+
+.tile-description {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0.5rem;
+  display: flex;
+  color: #666; /* Softer text color for the description */
+}
+
+[data-theme="dark"] .tile-description {
+  color:white;
+}
+
+.tile-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.grid-site-count{
+  margin-left: 15px;
+  padding: 9px 9px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .grid-controls {
+    display: grid;    
+  }
+
+  .grid-right-aligned {    
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    gap: 10px;
+  }
+
+  .reset-button {
+    margin-left: 0; /* Reset margin-left for proper alignment */
+    padding: 15px 15px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;    
+  }
+
+  .sort-dropdown {
+    padding: 15px 15px;
+  }
+
+  .tag-item-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: capitalize;
+    margin-left: auto; /* Push the element to the right */
+    width: 100%; /* Make it occupy the full row */
+    height: 45px;
+}
+}

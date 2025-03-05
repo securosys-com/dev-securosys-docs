@@ -1,0 +1,9 @@
+{
+  "label": "Key",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Key Management: Creation, Attributes & Algorithms",
+    "description": "Learn about key creation, key attributes, supported elliptic curves, cryptographic algorithms, address formats, and derivation in Securosys Transaction Security Broker for secure and efficient key management."
+  }
+}

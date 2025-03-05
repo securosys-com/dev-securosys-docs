@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Install OpenSSL v1.x OpenSC",
+    "description": "Learn how to install and configure OpenSSL v1.x OpenSC for seamless and secure integration with hardware security modules (HSMs), including prerequisites, setup steps, and advanced configuration tips."
+  }
+}

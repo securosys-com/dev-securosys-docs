@@ -1,0 +1,8 @@
+{
+  "label": "PKCS#11",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Unlock digital security's stronghold with the PKCS#11 provider. Seamlessly manage cryptographic keys for secure generation, storage, and access. Safeguard critical information in tamper-protected, FIPS 140-2 Level 3 validated hardware devices."
+  }
+}

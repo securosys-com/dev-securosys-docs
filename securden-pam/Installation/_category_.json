@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Installation: Securden PAM & HSM Setup",
+    "description": "Follow installation steps for Securden Unified Privileged Access Management (PAM) with Securosys HSM, including prerequisites, HSM configuration, and integration."
+  }
+}

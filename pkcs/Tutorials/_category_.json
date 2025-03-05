@@ -1,0 +1,9 @@
+{
+  "label": "Tutorial",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "PKCS#11 Tutorial: HSM Setup & Troubleshooting",
+    "description": "Learn how to set up PKCS#11 provider connections, test, and troubleshoot with Securosys CloudHSM and HSM connection configurations for smooth integration."
+  }
+}

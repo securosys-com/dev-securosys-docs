@@ -1,0 +1,9 @@
+{
+  "label": "ECIES",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Elliptic Curve Integrated Encryption Scheme",
+    "description": "ECIES is a hybrid encryption scheme which allows to encrypt data to an ECC public key but using symmetric cryptography for encryption and authentication. The symmetric keys are derived from the receiver's public key and an ephemeral private key of the sender with an ECDH agreement. The ephemeral key pair is used only for a single message: its private key will be deleted after encryption and the ephemeral public key is part of the cryptogram such that the receiver can perform the same ECDH agreement and get the same shared symmetric keys."
+  }
+}

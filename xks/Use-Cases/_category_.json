@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Use cases to secure AWS KMS with an HSM",
+    "description": "Discover the various use cases for AWS KMS, including how to securely encrypt an AWS S3 bucket. Learn how to leverage AWS Key Management Service to protect sensitive data stored in your S3 buckets with encryption, ensuring compliance and security."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Concepts",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "HashiCorp Vault Community - Concepts",
+    "description": "Explore HashiCorp Vault Community concepts including unsealing with Securosys Approver App, auto-unseal functionality, and integration of Securosys Secret Engine for enhanced security management."
+  }
+}

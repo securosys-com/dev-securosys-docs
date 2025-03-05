@@ -1,0 +1,9 @@
+{
+  "label": "Concepts",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Docker Encryption Concepts: Skopeo, References, Glossary",
+    "description": "Explore key concepts in Docker Encryption, including Skopeo container encryption, references, and an essential glossary for container security."
+  }
+}

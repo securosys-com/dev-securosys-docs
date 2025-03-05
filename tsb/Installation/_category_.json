@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Installation Guide: TSB, REST-API & Primus HSM Setup",
+    "description": "Follow the installation steps for Securosys Transaction Security Broker, including REST-API setup, Primus HSM configuration, HTTPS setup, and other essential initial configurations for secure key management."
+  }
+}

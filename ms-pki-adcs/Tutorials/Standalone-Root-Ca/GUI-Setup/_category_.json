@@ -1,0 +1,9 @@
+{
+  "label": "Setup via GUI",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft AD CS Standalone Root CA Setup via GUI",
+    "description": "Step-by-step guide on adding the AD CS role and configuring Microsoft Active Directory Certificate Services (AD CS) with Securosys Hardware Security Modules (HSMs) via GUI for a secure certificate management solution."
+  }
+}

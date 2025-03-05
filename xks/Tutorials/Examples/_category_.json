@@ -1,0 +1,9 @@
+{
+  "label": "Examples",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "title": "AWS KMS & HSM - Example Setups",
+    "description": "Explore example setups for creating an external key store, encrypting data, and generating a .jks file with Securosys XKS Proxy and AWS KMS. Follow step-by-step guides for secure key management, encryption, and integration."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Infinite Keystore",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Infinite Keystore: Scalable Key Management",
+    "description": "Explore the Infinite Keystore (IKS) for scalable key storage and management in on-premises and CloudHSM environments, and learn about its limitations with the PrimusHSM Rest-API."
+  }
+}

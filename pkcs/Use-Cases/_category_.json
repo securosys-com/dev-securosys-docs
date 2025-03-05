@@ -1,0 +1,9 @@
+{
+  "label": "Use Cases",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "PKCS#11 Use Cases: Integration & Key Management",
+    "description": "Explore PKCS#11 use cases with Securosys Primus Tools, including application integration with OpenSSL, ECIES, key split mechanisms, and building custom applications with API headers."
+  }
+}

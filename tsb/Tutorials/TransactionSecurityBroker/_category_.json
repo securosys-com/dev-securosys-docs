@@ -1,0 +1,9 @@
+{
+  "label": "Transaction Security Broker",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "title": "Transaction Security Broker, SKA & More",
+    "description": "Learn about Transaction Security Broker (TSB) and Securosys Smart Key Attributes, enabling multi-authorization and secure key management. Explore samples, the Securosys Authorization App, and more for enhanced security workflows."
+  }
+}

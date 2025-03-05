@@ -1,0 +1,9 @@
+{
+  "label": "Installation",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Microsoft S/MIME HSM Installation Guide",
+    "description": "Learn how to configure, install, and secure Microsoft S/MIME with Securosys Hardware Security Modules (HSMs), including prerequisites, API provider setup, digital certificate installation, and Outlook client security."
+  }
+}

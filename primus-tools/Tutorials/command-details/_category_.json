@@ -1,0 +1,9 @@
+{
+  "label": "Command Details",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Primus Tools: Command Details for HSM Management",
+    "description": "Explore detailed commands for Securosys Primus Tools and Hardware Security Modules (HSMs), covering credential management, object and partition management, BYOK, ECIES, signing, and more."
+  }
+}
